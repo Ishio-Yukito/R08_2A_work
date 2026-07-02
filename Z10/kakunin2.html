@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テーブルについて</title>
+</head>
+<body>
+    <!--テーブル-->
+    <table border="1">
+        <!--票のタイトル-->
+        <caption>クラス名簿</caption>
+        <!--行-->
+        <tr>
+            <!--この中が１行の内容-->
+            <th scope="col">出席番号</th>
+            <th scope="col">名前</th>
+        </tr>
+
+        <tr>
+            <!--二行目-->
+            <td>01</td>
+            <td>青い 新之助</td>
+        </tr>
+
+        <tr>
+            <!--三行目-->
+            <td>02</td>
+            <td>いまだ たかし</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <caption>サッカー部スタメン</caption>
+        <tr>
+            <th width="200">ポジション</th>
+            <th>背番号</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">FW</td>
+            <td>10</td>
+        </tr>
+        <tr>
+         <!--<td>FW</td>-->   
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td>MF</td>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>
