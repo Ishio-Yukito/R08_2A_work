@@ -1,0 +1,43 @@
+#title {
+    letter-spacing: 10px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+body {
+    background-color: antiquewhite;
+    background-image: url(../img/back.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 200%;
+}
+
+p {
+    line-height: 180%;
+}
+
+.kome {
+    color: blue
+}
+
+.shortcut {
+    font-family: serif;
+
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:focus {
+    color: deeppink
+}
+
+a:hover {
+    color: green
+}
