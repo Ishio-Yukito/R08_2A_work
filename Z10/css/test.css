@@ -1,0 +1,12 @@
+
+.test{color: crimson;
+background-color: aquamarine;}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:crimson;
+}
