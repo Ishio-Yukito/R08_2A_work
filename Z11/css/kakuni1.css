@@ -1,0 +1,34 @@
+@charset "UTF=8";
+
+/*フルードイメージの設定*/
+img {
+    max-width: 100%; /*画像の横幅を合わせる*/
+    height: auto;/* 横幅に合わせて縦幅も変化する*/
+}
+
+/*メディアクエリのデザイン*/
+
+/*モバイルファーストの概念で作るため、スマホの設定から*/
+
+/*スマホ用設定*/
+body{
+    background-color: blanchedalmond;
+}
+
+/*メディアクエリのデザイン*/
+
+/*タブレット向け設定(768px - 1023px)*/
+@media screen and (min-width:768px) {
+    /*ブラウザサイズが768pxを超えたら、ここのデザインを適用*/
+    body{
+        background-color: blue;
+    }
+}
+
+/*pc向け設定(768px - 1023px)*/
+@media screen and (min-width:1024px) {
+    /*ブラウザサイズが768pxを超えたら、ここのデザインを適用*/
+    body{
+        background-color:chartreuse;
+    }
+}
